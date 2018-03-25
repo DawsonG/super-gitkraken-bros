@@ -2,6 +2,8 @@ import 'pixi';
 import 'p2';
 import Phaser from 'phaser';
 
+var debug = false;
+
 var Platformer = Platformer || {};
 var game = new Phaser.Game(1024, 768, Phaser.CANVAS);
 
