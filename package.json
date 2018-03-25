@@ -1,0 +1,27 @@
+{
+  "name": "phaser-playground",
+  "version": "1.0.0",
+  "description": "A workspace for testing out the phaser HTML 5 framework.",
+  "repository": "",
+  "author": "Dawson Goodell <dawsong@osmstudios.com>",
+  "scripts": {
+    "start": "webpack --watch --color | node server.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "expose-loader": "^0.7.1",
+    "express": "^4.13.4",
+    "express-session": "^1.14.1",
+    "lodash": "^4.17.4",
+    "phaser": "^2.6.2",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "expose-loader": "^0.7.1",
+    "webpack": "^1.13.0"
+  }
+}
